@@ -1,0 +1,115 @@
+.content {
+  position: absolute;
+  top: 40px;
+  left: 600px;
+  margin-left: 20px;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+.bg-image{
+font-family: 'Oswald', sans-serif;
+  background-image: linear-gradient(to top, black, blue );
+  color:whitesmoke;
+  flex-direction: column; 
+    background-size: cover;
+    height: 200vh;
+}
+
+.name {
+  position: absolute;
+  top: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.press-button{
+  background-color: orange;
+  border-radius: .5em;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 .5em .5em;
+  padding: .5em .7em .75em;
+  color: purple;
+  
+}
+
+.about {
+  background-image: linear-gradient(to top, blue, black);
+  color: whitesmoke;
+  height: 50vh;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.icon {
+  font-size: 50px;
+  color: whitesmoke;
+} 
+
+.move{ 
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.text{
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  color: whitesmoke;
+}
+
+footer{
+  background-image: linear-gradient(to bottom, blue, black );
+  color: whitesmoke;
+  height: 15vh;
+}
+
+.dropbtn {
+    background-color: whitesmoke;
+    color:blue;
+    flex-direction: column; 
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: blue;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.contact{
+ justify-content: center;
+ font-family: 'Oswald', sans-serif;
+}
