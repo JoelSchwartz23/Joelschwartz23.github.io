@@ -65,6 +65,10 @@ footer{
   height: 15vh;
 }
 
+img{
+  opacity: .8;
+}
+
 .dropbtn {
     background-color: whitesmoke;
     color:blue;
