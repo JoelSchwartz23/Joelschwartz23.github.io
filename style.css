@@ -13,7 +13,7 @@ font-family: 'Oswald', sans-serif;
   color:whitesmoke;
   flex-direction: column; 
     background-size: cover;
-    height: 200vh;
+    height: 150vh;
 }
 
 .name {
@@ -79,7 +79,9 @@ footer{
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
+    bottom: 130px;
+    right: 2px;
     display: inline-block;
 }
 
@@ -116,4 +118,21 @@ footer{
 .contact{
  justify-content: center;
  font-family: 'Oswald', sans-serif;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+p{
+font-size: 22px;
+}
+
+.imgborder{
+  border: double;
 }
