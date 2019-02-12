@@ -7,13 +7,18 @@ text-align: center;
 font-family: 'Oswald', sans-serif;
 }
 
-.bg-image{
+header{
 font-family: 'Oswald', sans-serif;
-  background-image: linear-gradient(to top, black, blue );
-  color:whitesmoke;
+  background-image: linear-gradient(to top, black,white );
+  color:black;
   flex-direction: column; 
     background-size: cover;
-    height: 150vh;
+    height: 75vh;
+}
+
+main{
+  background-image: linear-gradient(to top, white,black);
+  color: whitesmoke;
 }
 
 .name {
@@ -22,30 +27,16 @@ font-family: 'Oswald', sans-serif;
   font-family: 'Oswald', sans-serif;
 }
 
-.press-button{
-  background-color: orange;
-  border-radius: .5em;
-  font-family: 'Oswald', sans-serif;
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 .5em .5em;
-  padding: .5em .7em .75em;
-  color: purple;
-  
-}
-
-.about {
-  background-image: linear-gradient(to top, blue, black);
-  color: whitesmoke;
-  height: 50vh;
-  color: white;
-  font-family: 'Oswald', sans-serif;
-}
 
 .icon {
   font-size: 50px;
-  color: whitesmoke;
+  color: white;
 } 
+
+.devicon{
+  font-size: 50px;
+  color: black;
+}
 
 .move{ 
   justify-content: space-between;
@@ -59,19 +50,22 @@ font-family: 'Oswald', sans-serif;
   color: whitesmoke;
 }
 
-footer{
-  background-image: linear-gradient(to bottom, blue, black );
+.imgicons{
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   color: whitesmoke;
+}
+
+footer{
+  background-image: linear-gradient(to bottom, white, black );
+  color: black;
   height: 15vh;
 }
 
-/* img{
-  opacity: .8;
-} */
-
-.dropbtn {
+/* .dropbtn {
     background-color: whitesmoke;
-    color:blue;
+    color:black;
     flex-direction: column; 
     padding: 5px;
     font-size: 16px;
@@ -83,6 +77,7 @@ footer{
     bottom: 130px;
     right: 2px;
     display: inline-block;
+    border: double;
 }
 
 .dropdown-content {
@@ -95,14 +90,14 @@ footer{
 }
 
 .dropdown-content a {
-    color: blue;
+    color: black;
     padding: 20px 20px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: blue;
+  background-color: grey;
   color: whitesmoke;
 }
 
@@ -112,8 +107,8 @@ footer{
 
 .dropdown:hover .dropbtn {
   background-color: whitesmoke;
-  color: blue;
-}
+  color: grey;
+} */
 
 .contact{
  justify-content: center;
@@ -127,6 +122,7 @@ footer{
 .links{
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap; 
 }
 
 p{
@@ -135,4 +131,9 @@ font-size: 22px;
 
 .imgborder{
   border: double;
+  /* color: whitesmoke; */
+}
+
+.projectmargin{
+margin-top: 50 px;
 }
