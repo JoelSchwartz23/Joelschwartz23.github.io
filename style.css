@@ -8,12 +8,9 @@ font-family: 'Oswald', sans-serif;
 }
 
 header{
-font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   background-image: linear-gradient(to top, black,white );
-  color:black;
-  flex-direction: column; 
-    background-size: cover;
-    height: 75vh;
+  color:black; 
 }
 
 main{
