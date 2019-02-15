@@ -9,8 +9,7 @@ font-family: 'Oswald', sans-serif;
 
 header{
   font-family: 'Oswald', sans-serif;
-  background-image: linear-gradient(to top, black,white );
-  color:black; 
+  background-image: linear-gradient(to bottom, grey,#041525 );
 }
 
 main{
@@ -19,11 +18,12 @@ main{
 }
 
 .name {
-  position: absolute;
-  top: 50px;
-  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
 }
 
+.topborder{
+  border-bottom: solid 1px grey;
+}
 
 .icon {
   font-size: 50px;
@@ -33,6 +33,28 @@ main{
 .devicon{
   font-size: 50px;
   color: black;
+}
+
+.headericons{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 45px;
+  color: whitesmoke;
+}
+
+.codeimg{
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(202, 197, 197);
+  background-image: url(/assets/mountains2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-width: 100%;
+  height: 100vh;
 }
 
 .move{ 
@@ -60,53 +82,6 @@ footer{
   height: 15vh;
 }
 
-/* .dropbtn {
-    background-color: whitesmoke;
-    color:black;
-    flex-direction: column; 
-    padding: 5px;
-    font-size: 16px;
-    border: none;
-}
-
-.dropdown {
-    position: absolute;
-    bottom: 130px;
-    right: 2px;
-    display: inline-block;
-    border: double;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: whitesmoke;
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 20px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: grey;
-  color: whitesmoke;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: whitesmoke;
-  color: grey;
-} */
-
 .contact{
  justify-content: center;
  font-family: 'Oswald', sans-serif;
@@ -123,7 +98,8 @@ footer{
 }
 
 p{
-font-size: 22px;
+font-size: 16px;
+color: whitesmoke;
 }
 
 .imgborder{
