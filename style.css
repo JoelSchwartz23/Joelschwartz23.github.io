@@ -35,6 +35,11 @@ main{
   color: black;
 }
 
+.about{
+  background-color: grey;
+  
+}
+
 .headericons{
   display: flex;
   justify-content: flex-end;
@@ -89,12 +94,6 @@ footer{
 
 .carousel-inner img {
   margin: auto;
-}
-
-.links{
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap; 
 }
 
 p{
