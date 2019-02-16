@@ -5,8 +5,9 @@ header{
 }
 
 main{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(202, 197, 197);
   background-color: #04324a;   
-  color: whitesmoke;
 }
 
 .name {
@@ -79,7 +80,8 @@ main{
 
 footer{
   background-color: grey;
-  color: black;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(202, 197, 197);
   height: 15vh;
 }
 
