@@ -102,6 +102,7 @@ color: whitesmoke;
 .imgborder{
   border: double;
   color: whitesmoke;
+  border-radius: 75%;
 }
 
 .projectmargin{
