@@ -37,6 +37,9 @@ main{
 }
 
 .about{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: #041525;
   color: rgb(202, 197, 197);
   font-family: 'Oswald', sans-serif;
@@ -101,7 +104,7 @@ color: whitesmoke;
 
 .imgborder{
   border: double;
-  color: whitesmoke;
+  color: rgb(202, 197, 197);
   border-radius: 75%;
 }
 
